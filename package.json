@@ -1,0 +1,27 @@
+{
+    "name": "dbgate-plugin-theme-parrot",
+    "version": "1.0.0",
+    "license": "MIT",
+    "description": "Fill description and icon link ![icon](https://raw.githubusercontent.com/dbgate/dbgate/master/packages/web/public/unknown.svg)",
+    "author": "Jan Prochazka",
+    "keywords": [
+      "dbgate",
+      "dbgateplugin"
+    ],
+    "files": [
+      "dist"
+    ],
+    "scripts": {
+      "build": "webpack --config webpack.config",
+      "plugin": "yarn build && yarn pack && dbgate-plugin dbgate-plugin-theme-parrot",
+      "plugout": "dbgate-plugout dbgate-plugin-theme-parrot",
+      "copydist": "yarn build && yarn pack && dbgate-copydist ../dist/dbgate-plugin-theme-parrot",
+      "prepublishOnly": "yarn build"
+    },
+    "devDependencies": {
+      "dbgate-plugin-tools": "^1.0.4",
+      "webpack": "^4.42.0",
+      "webpack-cli": "^3.3.11"
+    }
+  }
+  
