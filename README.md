@@ -3,4 +3,4 @@
 
 # dbgate-plugin-theme-parrot
 
-Use DbGate for install of this plugin
+Use DbGate for install of this plugin. Sample theme.

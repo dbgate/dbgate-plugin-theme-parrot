@@ -2,7 +2,7 @@
     "name": "dbgate-plugin-theme-parrot",
     "version": "1.0.0",
     "license": "MIT",
-    "description": "Fill description and icon link ![icon](https://raw.githubusercontent.com/dbgate/dbgate/master/packages/web/public/unknown.svg)",
+    "description": "Sample theme ![icon](https://raw.githubusercontent.com/dbgate/dbgate-plugin-theme-parrot/master/icon.svg)",
     "author": "Jan Prochazka",
     "keywords": [
       "dbgate",
